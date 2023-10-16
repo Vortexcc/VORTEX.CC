@@ -37,27 +37,13 @@ local Library = {
     OpenedFrames = {};
 };
 --[[
-    local Library = {
-    Registry = {};
-    RegistryMap = {};
-
-    HudRegistry = {};
-
-    FontColor = Color3.fromRGB(118, 118, 118);
+        FontColor = Color3.fromRGB(118, 118, 118);
     FontColor2 = Color3.fromRGB(198, 198, 198);
     MainColor = Color3.fromRGB(11, 11, 11);
     SelectedTabColor = Color3.fromRGB(23, 23, 23);
     BackgroundColor = Color3.fromRGB(15, 15, 15);
     AccentColor = Color3.fromRGB(93, 88, 157);
     OutlineColor = Color3.fromRGB(25, 25, 25);
-
-    Black = Color3.new(0, 0, 0);
-
-    OpenedFrames = {};
-
-    Signals = {};
-    ScreenGui = ScreenGui;
-};
 ]]
 
 task.spawn(function()
